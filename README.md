@@ -9,8 +9,8 @@ Our team "" attempt to solve amazon ml challenege 2025 in this repo and secured 
 
 | Version | Approach | Model Architecture | Key Features | SMAPE (%) |
 |---------|----------|-------------------|--------------|-----------|
-| **V1** | DistilBERT + Vision Transformer | DistilBERT-base-uncased (66M params), google/vit-base-patch16-224 | Text NLP regression + concat with ViT embeddings and used LightGBM | 51.02 |
-| **V2** | TF-IDF + LightGBM | TfidfVectorizer | TF-IDF text-only embeddings + hyperparameter tuning | 49.61 |
+| **V1** | DistilBERT + Vision Transformer + PCA + LightGBM| DistilBERT-base-uncased (66M params), google/vit-base-patch16-224 | Text NLP regression + concat with ViT embeddings and used LightGBM | 51.02 |
+| **V2** | TF-IDF + LightGBM | TfidfVectorizer | TF-IDF text-only embeddings + hyperparameter tuning with optuna| 49.61 |
 
 
 
